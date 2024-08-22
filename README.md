@@ -51,10 +51,11 @@ The 3D Convolutional Neural Network (3D-CNN) model architecture was then adopted
 The convolutional layers gradually increase in complexity, with the first layer having 16 channels, the second layer having 32 channels, and the third layer having 64 channels. Each layer uses a 3x3x3 filter to maintain spatial dimensions. Max-pooling layers then down sample the feature maps to extract key patterns. The model's output was processed through two fully connected layers for final classification, with a dropout layer included to prevent overfitting. 
 The convolutional layers extracted complex features from the 3D tooth images using convolution operations and Rectified Linear Unit (ReLU) activation functions.18 These features were then further refined through max-pooling layers to identify dominant patterns within the cavity. The fully connected layers process these features for final classification. Additionally, dropout regularization helped enhance the model's generalization by randomly deactivating neurons during training.
 The same model was applied to differentiate between corresponding ICDAS preparations made by two different operators. The classifier was modified to distinguish between Operator A and Operator B instead of ICDAS classes. 
-The following are the hyperparameter details of the training part:
 
-epochs = 500
-batch_size = 2
-learning_rate = 1e-3
-weight_decay = 0.0000000001
-momentum=0.9
+**The following are the hyperparameter details of the training part**:
+
+- epochs = 500
+- batch_size = 2
+- learning_rate = 1e-3
+- weight_decay = 0.0000000001
+- momentum=0.9
