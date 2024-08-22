@@ -1,15 +1,24 @@
 # 3D-ICDAS_based_tooth_classification
 This repo features code for an experiment on 56 restorative cavities on simulated molars using four ICDAS classifications. 3D CNN assessed cavity size, and operator proficiency, and predicted ICDAS class.
 
+![Flowchart](https://github.com/aguynamedSaif/3D-ICDAS_based_tooth_classification/raw/main/utils/flowchart.jpg)
+
 
 This repository contains the following:
 
 1. **Deep Learning Workflows**: 
    - [A workflow to classify work performed by two operators, along with their corresponding saliency maps.](https://github.com/aguynamedSaif/3D-ICDAS_based_tooth_classification/tree/main/2_operators_classification/code)
 
-   ![Workflow for 2 Operators](https://github.com/aguynamedSaif/3D-ICDAS_based_tooth_classification/raw/main/utils/workflow_2operator.jpg)
+   
 
-   ![ICDAS 2 Operators Classification](https://github.com/aguynamedSaif/3D-ICDAS_based_tooth_classification/raw/main/utils/ICDAS%202%20Operators%20Classification.svg)
+<div align="center">
+
+  <img src="https://github.com/aguynamedSaif/3D-ICDAS_based_tooth_classification/raw/main/utils/workflow_2operator.jpg" alt="Workflow for 2 Operators" width="600" />
+
+  <img src="https://github.com/aguynamedSaif/3D-ICDAS_based_tooth_classification/raw/main/utils/ICDAS%202%20Operators%20Classification.svg" alt="ICDAS 2 Operators Classification" width="600" />
+
+</div>
+
 
 
    - [A workflow to classify ICDAS cavity classes, with saliency maps to explain the model's decisions.](https://github.com/aguynamedSaif/3D-ICDAS_based_tooth_classification/tree/main/4_classes_classification)
